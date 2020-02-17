@@ -1,0 +1,24 @@
+
+
+
+
+INSERT INTO b_iblock_element (TIMESTAMP_X, MODIFIED_BY, DATE_CREATE, CREATED_BY, IBLOCK_ID, ACTIVE, SORT, NAME, PREVIEW_TEXT_TYPE, DETAIL_TEXT_TYPE, SEARCHABLE_CONTENT, WF_STATUS_ID, IN_SECTIONS, XML_ID)
+values (curdate(), 4, curdate(), 4, 25, 'Y', 500, 'name', 'text', 'text', 'name', 1, 'N' ID)
+
+INSERT INTO b_iblock_element_property (IBLOCK_PROPERTY_ID, IBLOCK_ELEMENT_ID, VALUE, VALUE_TYPE, VALUE_ENUM, VALUE_NUM, DESCRIPTION)
+VALUES (142, 'iblockelid', 'name', 'text' null, 'value_num')
+
+
+142 фамилия
+143 имя
+144 вальеревич
+145 город
+146 номер тел
+147 мейл
+148 иин
+149 Возраст и водительский стаж
+150 Тип транспортного средства:
+151 Территория регистрации ТС
+152 Срок эксплуатации:
+161 Итоговая стоимость полиса
+155 язык
